@@ -4,12 +4,13 @@ import Horizon from './Horizon';
 import ItemTop from './ItemTop'
 export default class Buoi3 extends Component {
   render() {
-    const textAvatar = 'ReactNative 02 -- Cao Thang';
-    const iShowHide = false
+    const textAvatar = 'Ok';
+    const iShowHide = true
     return (
       <View style={styles.container}>
         <View style={[styles.box, styles.colorGreen]}>
-          {iShowHide === true ?
+          {iShowHide === true 
+        ?
             <Image style={styles.Image}
               // source={{uri:'https://cdn.tgdd.vn/2021/02/CookProduct/Untitled-1-1200x676-4.jpg'}}
               source={require('./image.jpg')}

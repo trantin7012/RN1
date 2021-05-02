@@ -1,5 +1,8 @@
 import React from 'react';
-import Layout from './src/components/Buoi4/index'
+// import Layout from './src/components/Buoi4/index'
+// import Touched from './src/components/Buoi5/Touched'
+// import RenderWithState from './src/components/Buoi5/RenderWithState'
+import RenderIcon from './src/components/Buoi5/RenderIcon'
 // class App extends React.Component {
 //   render() {
 //     return (
@@ -36,7 +39,11 @@ import Layout from './src/components/Buoi4/index'
 //   }
 // })
 
-const App = () => <Layout/>
+const App = () => <RenderIcon/>
+{/* <RenderWithState/> */}
+{/* <Touched/> */}
+
+{/* <Layout/> */}
 
 
 export default App;
