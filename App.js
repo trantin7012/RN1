@@ -1,8 +1,12 @@
 import React from 'react';
+import BaiTapScrollView from './src/components/Buoi7/BaiTapScrollView';
+import DemoFlatList from './src/components/Buoi7/DemoFlatList';
+import DemoSectionList from './src/components/Buoi7/DemoSectionList';
 // import Layout from './src/components/Buoi4/index'
 // import Touched from './src/components/Buoi5/Touched'
 // import RenderWithState from './src/components/Buoi5/RenderWithState'
-import RenderIcon from './src/components/Buoi5/RenderIcon'
+// import RenderIcon from './src/components/Buoi5/RenderIcon'
+
 // class App extends React.Component {
 //   render() {
 //     return (
@@ -39,7 +43,10 @@ import RenderIcon from './src/components/Buoi5/RenderIcon'
 //   }
 // })
 
-const App = () => <RenderIcon/>
+const App = () => <DemoSectionList/>
+{/* <DemoFlatList/> */}
+{/* <BaiTapScrollView/> */}
+{/* <RenderIcon/> */}
 {/* <RenderWithState/> */}
 {/* <Touched/> */}
 
