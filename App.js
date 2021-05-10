@@ -2,6 +2,7 @@ import React from 'react';
 import BaiTapScrollView from './src/components/Buoi7/BaiTapScrollView';
 import DemoFlatList from './src/components/Buoi7/DemoFlatList';
 import DemoSectionList from './src/components/Buoi7/DemoSectionList';
+import Zalo from  './src/components/BTZalo/Zalo'
 // import Layout from './src/components/Buoi4/index'
 // import Touched from './src/components/Buoi5/Touched'
 // import RenderWithState from './src/components/Buoi5/RenderWithState'
@@ -43,7 +44,8 @@ import DemoSectionList from './src/components/Buoi7/DemoSectionList';
 //   }
 // })
 
-const App = () => <DemoSectionList/>
+const App = () => <Zalo/>
+{/* <DemoSectionList/> */}
 {/* <DemoFlatList/> */}
 {/* <BaiTapScrollView/> */}
 {/* <RenderIcon/> */}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Text, View, StyleSheet, SectionList } from 'react-native'
+import Icon from 'react-native-vector-icons/AntDesign'
 
 export default class DemoSectionList extends Component {
    DATA = [
@@ -54,7 +55,11 @@ export default class DemoSectionList extends Component {
       )
       //Boc tach title bang section
       renderItemHeader= ({section:{title}}) =>{
-        return <Text style={styles.itemHeaderTxt}>{title}</Text>
+        return <Text style={styles.itemHeaderTxt}>
+            {title}
+            <Icon name="dingding" size={30} color="#900" />
+            {/* <Icon name="dingding" size={30}></Icon> */}
+            </Text>
       }
 
     render() {
